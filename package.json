@@ -1,0 +1,45 @@
+{
+  "name": "gulp-systemjs",
+  "version": "1.0.0",
+  "description": "Remove Multiple SystemJs decorators",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudmark/gulp-systemjs.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "systemjs",
+    "jspm",
+    "decorators"
+  ],
+  "author": {
+    "name": "Mark Galea"
+  },
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/cloudmark/gulp-systemjs/issues"
+  },
+  "homepage": "https://github.com/cloudmark/gulp-systemjs",
+  "dependencies": {
+    "bufferstreams": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "merge": "^1.2.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "maintainers": [
+    {
+      "name": "cloudmark",
+      "email": "mmgalea@gmail.com"
+    }
+  ]
+}
